@@ -16,7 +16,7 @@ helm create bakehouse-chart
 
 ## Install the Helm release
 ```bash
-helm install bakehouse-release ./bakehouse-chart
+helm install backhpuse-1 ../backhouse-chart/
 ```
 ![helm-release](images/helm-install.png)
 
