@@ -10,10 +10,14 @@ docker push ahmednabil20/bakehouse-img:latest
 ```
 
 ## Create helm chart
-`helm create bakehouse-chart`
+```bash
+helm create bakehouse-chart
+```
 
 ## Install the Helm release
-`helm install bakehouse-release ./bakehouse-chart`
+```bash
+helm install bakehouse-release ./bakehouse-chart
+```
 ![helm-release](images/helm-install.png)
 
 ## Access the Application
