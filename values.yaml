@@ -1,0 +1,20 @@
+# Default values for backhouse-chart.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+
+replicaCount: 2
+
+
+image:
+  repository: ahmednabil20/bankhouse-img:latest
+  name: bankhouse-img
+
+
+service:
+  type: NodePort
+  targetPort: 80
+  ports: 
+    - 80
+
+
