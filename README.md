@@ -4,7 +4,7 @@ Build and Push Docker Image
 ```bash
 docker build -t bakehouse-img -f Dockerfile .
 docker image ls
-echo "mypass" | docker login -u ahmednabil20 --password-stdin
+echo "dockerHubPass" | docker login -u ahmednabil20 --password-stdin
 docker tag bakehouse-img:latest ahmednabil20/bakehouse-img:latest
 docker push ahmednabil20/bakehouse-img:latest
 ```
