@@ -7,7 +7,7 @@ replicaCount: 2
 
 
 image:
-  repository: ahmednabil20/bankhouse-img:latest
+  repository: ahmednabil20/bankhouse-img:v1
   name: bankhouse-img
 
 
